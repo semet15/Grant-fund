@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+                "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+<definition name="base-definition"
+            template="/WEB-INF/views/tiles/layouts/defaultLayout.jsp">
+    <put-attribute name="title" value="" />
+    <put-attribute name="header" value="" />
+    <put-attribute name="body" value="" />
+</definition>
+
+<definition name="start-page" extends="base-definition">
+    <put-attribute name="title" value="Start Page" />
+    <put-attribute name="header" value="/WEB-INF/views/pages/headers/start.jsp" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/bodies/start-info.jsp" />
+</definition>
+
+<definition name="start-grantfund-list" extends="base-definition">
+    <put-attribute name="title" value="Start Page" />
+    <put-attribute name="header" value="/WEB-INF/views/pages/headers/start.jsp" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/bodies/gtantfund/list.jsp" />
+</definition>
+
+<definition name="client-signup-form" extends="base-definition">
+    <put-attribute name="title" value="Client Sign Up" />
+    <put-attribute name="header" value="/WEB-INF/views/pages/headers/start.jsp" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/bodies/client/signup-form.jsp" />
+</definition>
+
+<definition name="client-page" extends="base-definition">
+    <put-attribute name="title" value="Client Page" />
+    <put-attribute name="header" value="/WEB-INF/views/pages/headers/client.jsp" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/bodies/gtantfund/list.jsp" />
+</definition>
+
+<definition name="client-details-list" extends="base-definition">
+    <put-attribute name="title" value="Contact Details" />
+    <put-attribute name="header" value="/WEB-INF/views/pages/headers/client.jsp" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/bodies/client-details/list.jsp" />
+</definition>
+
+<definition name="client-details-edition-form" extends="base-definition">
+    <put-attribute name="title" value="Edition Form" />
+    <put-attribute name="header" value="/WEB-INF/views/pages/headers/client.jsp" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/bodies/client-details/edition-form.jsp" />
+</definition>
+
+<definition name="projects-list" extends="base-definition">
+    <put-attribute name="title" value="Projects List" />
+    <put-attribute name="header" value="/WEB-INF/views/pages/headers/client.jsp" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/bodies/project/list.jsp" />
+</definition>
+
+<definition name="project-registring-form" extends="base-definition">
+    <put-attribute name="title" value="Project Registring Form" />
+    <put-attribute name="header" value="/WEB-INF/views/pages/headers/client.jsp" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/bodies/project/registring-form.jsp" />
+</definition>
+
+<definition name="admin-page" extends="base-definition">
+    <put-attribute name="title" value="Admin Page" />
+    <put-attribute name="header" value="/WEB-INF/views/pages/headers/admin.jsp" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/bodies/gtantfund/list.jsp" />
+</definition>
+
+<definition name="admin-signup-form" extends="base-definition">
+    <put-attribute name="title" value="Admin Sign Up" />
+    <put-attribute name="header" value="/WEB-INF/views/pages/headers/admin.jsp" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/bodies/admin/signup-form.jsp" />
+</definition>
+
+<definition name="grantfunds-advanced-list" extends="base-definition">
+    <put-attribute name="title" value="Grand Funds Advanced List" />
+    <put-attribute name="header" value="/WEB-INF/views/pages/headers/admin.jsp" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/bodies/gtantfund/advanced-list.jsp" />
+</definition>
+
+<definition name="grantfund-creating-form" extends="base-definition">
+    <put-attribute name="title" value="Grant Fund Form" />
+    <put-attribute name="header" value="/WEB-INF/views/pages/headers/admin.jsp" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/bodies/gtantfund/creating-form.jsp" />
+</definition>
+
+<definition name="grantfund-distribution-form" extends="base-definition">
+    <put-attribute name="title" value="Grant Fund Form" />
+    <put-attribute name="header" value="/WEB-INF/views/pages/headers/admin.jsp" />
+    <put-attribute name="body" value="/WEB-INF/views/pages/bodies/gtantfund/distribution-form.jsp" />
+</definition>
+
+
+</tiles-definitions>

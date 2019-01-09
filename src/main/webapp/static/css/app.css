@@ -1,0 +1,75 @@
+
+body {
+  font-size: 12px!important;
+  background-color: #f9f9f9;
+}
+
+header {
+  width: 100%;
+  height: 66px;
+  border-bottom-color: rgb(164, 172, 174);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  position: fixed;
+  z-index: 500;
+}
+
+.body {
+  position:  relative;
+  top: 80px;
+}
+
+#startHeader {
+  background-color: #faf2cc;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+#clientHeader {
+  background-color: #c1e2b3;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+#adminHeader {
+  background-color: lavender;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+.row_fund {
+  background-color: rgba(143,203,31,0.08);
+}
+
+.row_project {
+  background-color: #ffffff;
+}
+
+.text_font {
+  font-size: medium;
+}
+
+.text_font_small {
+  font-size: small;
+}
+
+.login-form {
+  position:  relative;
+  top: 100px;
+}
+
+.state_green {
+  color:  mediumseagreen;
+  font-weight: bolder;
+}
+
+.state_red {
+  color:  red;
+  font-weight: bolder;
+}
+
+.no_padding_margin {
+  padding:  0px;
+  margin: 0px;
+}
+
